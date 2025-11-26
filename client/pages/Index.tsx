@@ -92,17 +92,17 @@ export default function Index() {
                       : "text-white/70 hover:text-white hover:bg-white/5"
                   }`}
                 >
-                  Deposit ZEC
+                  SOL to ZEC
                 </button>
                 <button
                   onClick={() => setActiveTab("withdraw")}
                   className={`flex-1 py-2 px-3 sm:px-4 rounded-md font-clash font-medium text-xs sm:text-[13px] transition-all active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zolana-yellow ${
                     activeTab === "withdraw"
-                      ? "bg-zolana-yellow text-black shadow-md"
+                      ? "bg-white text-black shadow-md"
                       : "text-white/70 hover:text-white hover:bg-white/5"
                   }`}
                 >
-                  Withdraw wZEC
+                  ZEC to SOL
                 </button>
               </div>
 
